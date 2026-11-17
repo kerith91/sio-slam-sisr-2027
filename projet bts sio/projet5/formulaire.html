@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription d'un Nouveau client</title>
+</head>
+
+<body bgcolor="yellow">
+
+    <h1><font color="black">Inscription d'un Nouveau client</font></h1>
+
+    <br><br>
+
+    <table>
+        <tr>
+            <td width="400">Nom :</td>
+            <td><input type="text" name="nom" size="30"></td>
+        </tr>
+
+        <tr>
+            <td>Prénom :</td>
+            <td><input type="text" name="prenom" size="30"></td>
+        </tr>
+
+        <tr>
+            <td>Date de naissance :</td>
+            <td><input type="date" name="date_naissance"></td>
+        </tr>
+
+        <tr>
+            <td>Adresse mail:</td>
+            <td><input type="email" name="email" size="30"></td>
+        </tr>
+
+        <tr>
+            <td>Mots de passe :</td>
+            <td><input type="password" name="password" size="30"></td>
+        </tr>
+
+        <tr>
+            <td>Numéro de permis :</td>
+            <td><input type="text" name="permis" size="30"></td>
+        </tr>
+
+        <tr>
+            <td>Nombre d'années d'ancienneté:</td>
+            <td><input type="number" name="anciennete" size="30"></td>
+        </tr>
+
+        <tr>
+            <td>Ville :</td>
+            <td>
+                <select name="ville">
+                    <option>Paris</option>
+                    <option>Lyon</option>
+                    <option>Marseille</option>
+                    <option>Nice</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Adresse du client:</td>
+            <td>
+                <textarea name="adresse" rows="5" cols="40"></textarea>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <font color="grey">Situation matrimoniale :</font>
+
+    <br><br>
+
+    <table>
+        <tr>
+            <td width="400">Marié</td>
+            <td><input type="radio" name="situation" value="marie"></td>
+        </tr>
+
+        <tr>
+            <td>Non marié</td>
+            <td><input type="radio" name="situation" value="non-marie"></td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <font color="grey">Préférence de voiture :</font>
+
+    <br><br>
+
+    <table>
+        <tr>
+            <td width="400">Automatique</td>
+            <td><input type="checkbox" name="voiture" value="automatique"></td>
+        </tr>
+
+        <tr>
+            <td>Manuelle</td>
+            <td><input type="checkbox" name="voiture" value="manuelle"></td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <input type="submit" value="enregister">
+
+    <input type="submit" value="annuler">
+
+    <br><br>
+
+    <a href="../index.html">Retour</a>
+
+    <br><br>
+
+    <footer>
+        © 2026 Agence Méditerranée - Location de véhicules
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajout d'une Nouvelle Voiture</title>
+</head>
+
+<body bgcolor="yellow">
+
+    <h1>Ajout d'une Nouvelle Voiture</h1>
+
+    <form>
+        <table>
+            <tr>
+                <td><label for="marque">Marque :</label></td>
+                <td>
+                    <select id="marque" name="marque">
+                        <option selected>Mercedest</option>
+                        <option>Renault</option>
+                        <option>Toyota</option>
+                        <option>Ferrari</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="immatriculation">Plaque d'immatriculation :</label></td>
+                <td>
+                    <input type="text" id="immatriculation" name="immatriculation">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="couleur">couleur :</label></td>
+                <td>
+                    <input type="text" id="couleur" name="couleur">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="date">Date d'immatriculation :</label></td>
+                <td>
+                    <input type="date" id="date" name="date">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="kilometrage">Kilométrage :</label></td>
+                <td>
+                    <input type="number" id="kilometrage" name="kilometrage">
+                </td>
+            </tr>
+
+            <tr>
+                <td>État :</td>
+                <td>
+                    <input type="radio" id="occasion" name="etat" value="occasion">
+                    <label for="occasion">Occasion</label>
+
+                    <input type="radio" id="neuf" name="etat" value="neuf">
+                    <label for="neuf">Neuf</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Carburant :</td>
+                <td>
+                    <input type="radio" id="essence" name="carburant" value="essence">
+                    <label for="essence">essence</label>
+
+                    <input type="radio" id="electrique" name="carburant" value="electrique">
+                    <label for="electrique">Électrique</label>
+
+                    <input type="radio" id="diesel" name="carburant" value="diesel">
+                    <label for="diesel">Diesel</label>
+
+                    <input type="radio" id="hybride" name="carburant" value="hybride">
+                    <label for="hybrides">Hybride</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="boite">Boîte de vitesse :</label></td>
+                <td>
+                    <select id="boite" name="boite">
+                        <option selected>Manuelle</option>
+                        <option>Automatique</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="portes">Nombre de portes:</label></td>
+                <td>
+                    <input type="number" id="portes" name="portes">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Radio :</td>
+                <td>
+                    <input type="radio" id="radioOui" name="radio" value="oui">
+                    <label for="radioOui">Oui</label>
+
+                    <input type="radio" id="radioNon" name="radio" value="non">
+                    <label for="radioNon">Non</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Cslimatisation :</td>
+                <td>
+                    <input type="radio" id="climOui" name="climatisation" value="oui">
+                    <label for="climOui">Oui</label>
+
+                    <input type="radio" id="climNon" name="climatisation" value="non">
+                    <label for="climNon">Non</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Enregistrer">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="reset" value="Annuler">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br><br><br><br>
+
+    <a href="../index.html">Retour</a>
+
+    <p>© 2026 Agence Mediterranée - Location de véhicules</p>
+
+</body>
+</html>
+
